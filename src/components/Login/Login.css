@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  .login-page {
+    padding-left: 0%;
+    background-color: var(--color-bg);
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    background-color: #110b0b;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: -15px;
+  }
+  
+  .logo span {
+    font-size: 4rem;
+    font-weight: 700;
+    color:var(--color-primary);
+    margin-bottom: -10px;
+  }
+
+
+  label{
+    color: #fff;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  
+  label {
+    margin-top: 1rem;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid #ccc;
+    width: 60%;
+  }
+  
+  button {
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    border: none;
+    /* font-size: 15px; */
+    font-weight:600;
+    background-color: var(--color-primary-variant);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    width: 60%;
+    transition: 700ms ease;
+
+  }
+
+  button:hover{
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.errorLog {
+  background-color: #ffdddd;
+  color: #ff0000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-top: 30px;
+  width: 60%;
+}
+
+  
+  .company-image {
+    background-image: url('./../../../assets/mapa.svg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    flex: 2;
+    height: 100%;
+   
+  }
+
+  
+@media screen and (max-width:1024px){
+  .login{
+    width: 100%;
+  }
+
+  }  

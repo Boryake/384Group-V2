@@ -1,0 +1,129 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.squares-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  height: 100px;
+}
+
+.square {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  transition: transform 0.2s ease-in-out;
+  min-height: 100px;
+}
+
+.square a {
+  display: flex;
+  align-items: center;
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.icon-container {
+  background-color: #99d9d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px 0 0 8px;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+.text-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.square:hover {
+  transform: scale(1.05);
+}
+
+.square-1 {
+  background-color: #ffffff;
+}
+
+.square-2 {
+  background-color: #ffffff;
+}
+
+.square-3 {
+  background-color: #ffffff;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 500px;
+  margin-top: 40px;
+  height: 60%;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  display: flex;
+  height: 60%;
+  justify-content: center;
+  background-color: #f8f8f8;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.color-legend-container {
+  display: flex;
+  justify-content: center;
+}
+
+.color-legend {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 90px;
+}
+
+.color-legend__color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.color-legend__name {
+  font-size: 14px;
+}

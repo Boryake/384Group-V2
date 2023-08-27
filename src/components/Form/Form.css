@@ -1,0 +1,208 @@
+.upload-form-container {
+  max-width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form-container label {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  flex: 1;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.label-group {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input-group {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #555;
+  transition: box-shadow 0.3s ease;
+}
+
+button {
+  width: 40%;
+  padding: 10px;
+  color: #fff;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.upload-form-container {
+  position: relative;
+}
+
+.error-message {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-size: 12px;
+  color: red;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 1500px;
+  overflow-y: auto;
+  animation: modal-appear 0.3s ease;
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 3px;
+  right: 1px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #9b4e4e;
+  background-color: #d84343;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+@keyframes modal-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal.show {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  background-color: #ddd;
+}
+
+.form-select {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Agrega este estilo para evitar que el tamaño del select cambie */
+.form-select option {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+}
+
+
+
+.container-buttons-form{
+  width: 400px;
+}
+
+.button-form{
+  padding:10px;
+  margin: 15px;
+}

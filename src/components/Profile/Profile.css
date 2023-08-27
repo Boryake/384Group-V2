@@ -1,0 +1,155 @@
+.profile-container-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.profile-container form {
+  margin-left: 30%;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 50px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-top: -438px;
+}
+
+.form h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.form p {
+  font-size: 14px;
+  color: #333333;
+}
+
+.form label {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.form input[type="password"] {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 14px;
+  background-image: linear-gradient(45deg, transparent 50%, #cccccc 50%),
+    linear-gradient(135deg, #cccccc 50%, transparent 50%),
+    linear-gradient(to right, #cccccc, #cccccc);
+  background-position: calc(100% - 20px) center, calc(100% - 15px) center,
+    calc(100% - 2.5em) 1em;
+  background-size: 5px 5px, 5px 5px, 1px 20px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding-right: 25px;
+}
+
+.form button {
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: #00d4c7;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, #ffffff 50%);
+  background-position: calc(100% - 20px) center;
+  background-size: 8px 8px;
+  background-repeat: no-repeat;
+  padding-right: 25px;
+}
+
+.form button:hover {
+  background-color: #489182;
+}
+
+form .error-message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: #00d4c7;
+  border-style: outset;
+  margin-left: 27px;
+  margin-bottom: 15px;
+}
+.formPass label{
+  color: black;
+}
+.formPass input{
+  width: 90%;
+  margin-left: 11px;
+}
+.bold {
+  font-weight: bold;
+  color: #00d4c7;
+  font-size: 14px;
+}
+
+.formPass {
+  margin-left: 50%;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+
+  margin-top: 10px;
+}
+
+.formPass p{
+  font-size: 15px;
+  color: #333333;
+}
+
+.wrapper
+{
+padding-bottom: 18px;
+}
+
+.divider
+{
+position: relative;
+margin-top: 18px;
+height: 1px;
+}
+
+.div-transparent:before
+{
+content: "";
+position: absolute;
+top: 0;
+left: 5%;
+right: 5%;
+width: 90%;
+height: 1px;
+background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent)
+}

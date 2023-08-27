@@ -1,0 +1,177 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-form-container {
+  margin-right: 100px;
+  
+}
+
+.register-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 80vh;
+  width: 300px;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.register-form-container label {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.register-form-container input,
+.register-form-container select {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  appearance: none;
+  font-size: 14px;
+}
+
+.register-form-container select {
+  background-image: linear-gradient(45deg, transparent 50%, #cccccc 50%),
+    linear-gradient(135deg, #cccccc 50%, transparent 50%),
+    linear-gradient(to right, #cccccc, #cccccc);
+  background-position: calc(100% - 20px) center, calc(100% - 15px) center,
+    calc(100% - 2.5em) 1em;
+  background-size: 5px 5px, 5px 5px, 1px 20px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding-right: 25px;
+}
+
+.register-form-container .register  {
+  width: 100% !important;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: #00d4c7;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form-container button:hover {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.register-form-container .succesLog {
+  margin-top: 40px;
+  color: red;
+  font-size: 14px;
+}
+
+.register-form-container .successLog {
+  margin-top: 10px;
+  color: rgb(25, 25, 25);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-users-table {
+  flex: 1;
+  max-width: 65%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.register-users-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.register-users-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #d8d8d8;
+  padding: 8px;
+  border-bottom: 2px solid var(--color-primary);
+  text-align: left;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+  z-index: 1;
+}
+
+.register-users-table td {
+  padding: 4px;
+  border-bottom: 1px solid #bababa;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+.register-users-table td.email {
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.register-users-table td .delete-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 70px;
+  height: 30px;
+  background-color: #f44336;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-users-table td .delete-button:hover {
+  background-color: #d32f2f;
+}
+
+
+
+.register-users-table .errorLog {
+  position: absolute;
+  top: 0;
+  left: 55%;
+  width: 20%;
+  font-size: 16px;
+  transform: translateX(-50%);
+}
+
+
+
+.react-datepicker__navigation {
+  width: 4px;
+  height: 4px;
+}
+
+.register-form-container button {
+width: 25px;
+height: 25px;
+border-radius: 5px;
+align-items: center;
+top: -15px;
+background-color: #a3a3a3;
+}
